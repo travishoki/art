@@ -1,0 +1,8 @@
+.gallery ul li {
+	border: solid 1px black;
+	display: flex;
+}
+
+.gallery ul li a {
+	text-decoration: none;
+}

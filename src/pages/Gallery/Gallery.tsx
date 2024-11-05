@@ -5,7 +5,7 @@ import './Gallery.css';
 
 export const Gallery = () => {
 	return (
-		<div className="gallery">
+		<div className="boxed gallery">
 			<h1>Art by Travis Hoki</h1>
 			<ul>
 				{IMAGES.map((image, index) => (

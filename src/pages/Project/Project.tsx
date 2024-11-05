@@ -9,7 +9,7 @@ export const Project = () => {
 	const project = find(IMAGES, { id });
 
 	return (
-		<div className="project">
+		<div className="boxed project">
 			{project && (
 				<>
 					<h1>{project.title}</h1>

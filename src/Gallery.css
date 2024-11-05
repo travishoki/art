@@ -5,6 +5,7 @@
 .gallery header{
     font: red;
     font-style: italic;
+    align-items: center;
 }
 .gallery ul {
     align-items: center;

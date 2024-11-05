@@ -1,6 +1,10 @@
 .gallery{
-    border:solid 1px rgba(14, 187, 135, 0.89);
+    border:solid 1px black;
     font-size: 16px;
+}
+.gallery header{
+    font: red;
+    font-style: italic;
 }
 .gallery ul {
     align-items: center;

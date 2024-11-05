@@ -14,3 +14,7 @@
 	border: solid 1px black;
 	padding: 20px;
 }
+
+.gallery ul li a {
+	text-decoration: none;
+}

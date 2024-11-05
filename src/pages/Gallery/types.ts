@@ -3,6 +3,7 @@ export type ImgType = {
 };
 
 export type ProjectType = {
+	description: string;
 	id: string;
 	title: string;
 	images: ImgType[];

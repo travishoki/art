@@ -12,8 +12,9 @@ export const Project = () => {
 		<div className="project">
 			{project && (
 				<>
-					<h1>{project?.title}</h1>
+					<h1>{project.title}</h1>
 					<img src={project.images[0].img} alt={project.title} />
+					<p>{project.description}</p>
 				</>
 			)}
 		</div>

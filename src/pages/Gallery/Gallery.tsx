@@ -1,4 +1,6 @@
 import React from 'react';
+import { GalleryItem } from './GalleryItem';
+import { ImageType } from './types';
 import './Gallery.css';
 
 const images: ImageType[] = [
@@ -15,18 +17,14 @@ const images: ImageType[] = [
 		title: 'three',
 	},
 ];
-type ImageType = {
-	id: string;
-	title: string;
-};
 
 export const Gallery = () => {
 	return (
 		<div className="gallery">
 			<h1>Gallery</h1>
 			<ul>
-				{images.map((image) => (
-					<li>{image.title}</li>
+				{images.map((image, index) => (
+					<GalleryItem key={index} {...image}></GalleryItem>
 				))}
 			</ul>
 		</div>

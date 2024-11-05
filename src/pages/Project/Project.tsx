@@ -2,6 +2,7 @@ import React from 'react';
 import { find } from 'lodash';
 import { useParams } from 'react-router-dom';
 import { IMAGES } from '../../const';
+import './Project.css';
 
 export const Project = () => {
 	const params = useParams();

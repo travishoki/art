@@ -2,11 +2,6 @@
     border:solid 1px black;
     font-size: 16px;
 }
-.gallery header{
-    font: red;
-    font-style: italic;
-    align-items: center;
-}
 .gallery ul {
     align-items: center;
     display: flex;

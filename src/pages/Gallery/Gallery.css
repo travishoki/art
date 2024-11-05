@@ -1,7 +1,7 @@
 .gallery {
-	border: solid 1px black;
 	font-size: 16px;
 }
+
 .gallery ul {
 	align-items: center;
 	display: flex;
@@ -9,6 +9,7 @@
 	justify-content: center;
 	list-style-type: none;
 }
+
 .gallery ul li {
 	border: solid 1px black;
 	padding: 20px;
